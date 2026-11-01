@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EduShareHub - Buy, sell and share educational notes, study materials and use free PDF tools.">
+  <title>EduShareHub - Learn, Share & Grow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <a href="index.html" class="logo">
+      <span class="logo-icon">E</span>
+      EduShareHub
+    </a>
+
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#marketplace">Marketplace</a>
+      <a href="#tools">PDF Tools</a>
+      <a href="#about">About</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="#login" class="login-btn">Login</a>
+      <a href="#register" class="signup-btn">Sign Up</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="tagline">YOUR KNOWLEDGE, YOUR OPPORTUNITY</span>
+        <h1>Learn More.<br><span>Share More.</span> Earn More.</h1>
+        <p>
+          Discover useful study notes, educational resources
+          and powerful free PDF tools — all in one place.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#marketplace" class="primary-btn">Explore Marketplace</a>
+          <a href="#tools" class="secondary-btn">Explore PDF Tools</a>
+        </div>
+
+        <div class="hero-stats">
+          <div><strong>Study</strong><small>Resources</small></div>
+          <div><strong>Free</strong><small>PDF Tools</small></div>
+          <div><strong>Share</strong><small>Knowledge</small></div>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="hero-card">
+          <div class="book-icon">📚</div>
+          <h3>Study Smarter</h3>
+          <p>Notes, assignments & resources</p>
+          <div class="mini-icons">
+            <span>📄</span><span>📝</span><span>🎓</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Search -->
+    <section class="search-section">
+      <h2>What are you looking for?</h2>
+      <div class="search-box">
+        <input type="search" id="siteSearch"
+          placeholder="Search notes, books, PDF tools...">
+        <button id="searchButton">Search</button>
+      </div>
+      <p id="searchMessage" aria-live="polite"></p>
+    </section>
+
+    <!-- Marketplace -->
+    <section class="section" id="marketplace">
+      <div class="section-heading">
+        <div>
+          <span class="section-label">DIGITAL MARKETPLACE</span>
+          <h2>Explore Study Materials</h2>
+          <p>Find educational resources shared by students and teachers.</p>
+        </div>
+        <a href="#marketplace" class="view-link">Explore all →</a>
+      </div>
+
+      <div class="category-grid">
+        <a class="category-card" href="#marketplace">
+          <span class="category-icon">📚</span>
+          <h3>Study Notes</h3>
+          <p>Subject-wise study notes</p>
+        </a>
+
+        <a class="category-card" href="#marketplace">
+          <span class="category-icon">📝</span>
+          <h3>Assignments</h3>
+          <p>Educational assignments</p>
+        </a>
+
+        <a class="category-card" href="#marketplace">
+          <span class="category-icon">👨‍🏫</span>
+          <h3>Teacher Resources</h3>
+          <p>Worksheets and lesson plans</p>
+        </a>
+
+        <a class="category-card" href="#marketplace">
+          <span class="category-icon">📖</span>
+          <h3>Past Papers</h3>
+          <p>Exam preparation materials</p>
+        </a>
+
+        <a class="category-card" href="#marketplace">
+          <span class="category-icon">💻</span>
+          <h3>Scripts</h3>
+          <p>Original scripts and content</p>
+        </a>
+
+        <a class="category-card" href="#marketplace">
+          <span class="category-icon">📕</span>
+          <h3>E-books</h3>
+          <p>Digital educational books</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- PDF Tools -->
+    <section class="section tools-section" id="tools">
+      <div class="section-heading">
+        <div>
+          <span class="section-label">FREE ONLINE TOOLS</span>
+          <h2>Powerful PDF Tools</h2>
+          <p>Make your document work easier and faster.</p>
+        </div>
+        <span class="free-label">FREE TO USE</span>
+      </div>
+
+      <div class="tools-grid">
+        <a class="tool-card" href="#tools">
+          <span class="tool-icon">📄</span>
+          <h3>Word to PDF</h3>
+          <p>Convert Word documents to PDF.</p>
+          <span class="tool-link">Use Tool →</span>
+        </a>
+
+        <a class="tool-card" href="#tools">
+          <span class="tool-icon">🖼️</span>
+          <h3>Image to PDF</h3>
+          <p>Convert images into PDF files.</p>
+          <span class="tool-link">Use Tool →</span>
+        </a>
+
+        <a class="tool-card" href="#tools">
+          <span class="tool-icon">📸</span>
+          <h3>PDF to Image</h3>
+          <p>Convert PDF pages into images.</p>
+          <span class="tool-link">Use Tool →</span>
+        </a>
+
+        <a class="tool-card" href="#tools">
+          <span class="tool-icon">📝</span>
+          <h3>PDF to Word</h3>
+          <p>Convert PDF documents to Word.</p>
+          <span class="tool-link">Use Tool →</span>
+        </a>
+
+        <a class="tool-card" href="#tools">
+          <span class="tool-icon">🔗</span>
+          <h3>Merge PDF</h3>
+          <p>Combine multiple PDF files.</p>
+          <span class="tool-link">Use Tool →</span>
+        </a>
+
+        <a class="tool-card" href="#tools">
+          <span class="tool-icon">✂️</span>
+          <h3>Split PDF</h3>
+          <p>Separate pages from a PDF.</p>
+          <span class="tool-link">Use Tool →</span>
+        </a>
+
+        <a class="tool-card" href="#tools">
+          <span class="tool-icon">📦</span>
+          <h3>Compress PDF</h3>
+          <p>Reduce PDF file size.</p>
+          <span class="tool-link">Use Tool →</span>
+        </a>
+
+        <a class="tool-card" href="#tools">
+          <span class="tool-icon">🔄</span>
+          <h3>Rotate PDF</h3>
+          <p>Rotate PDF pages easily.</p>
+          <span class="tool-link">Use Tool →</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Seller Banner -->
+    <section class="seller-banner" id="register">
+      <div>
+        <span class="section-label">FOR STUDENTS & TEACHERS</span>
+        <h2>Have useful study material?</h2>
+        <p>Share your original notes and educational resources with others.</p>
+      </div>
+      <a href="#register" class="primary-btn">Become a Seller →</a>
+    </section>
+
+    <!-- About -->
+    <section class="about-section" id="about">
+      <h2>One Platform. Many Possibilities.</h2>
+      <p>
+        EduShareHub brings students, teachers and learners together.
+        Discover useful resources, share your knowledge and simplify
+        your document tasks with online tools.
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-brand">
+      <a href="#home" class="logo">
+        <span class="logo-icon">E</span> EduShareHub
+      </a>
+      <p>Learn, share and grow together.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="#marketplace">Marketplace</a>
+      <a href="#tools">PDF Tools</a>
+      <a href="#about">About Us</a>
+      <a href="mailto:contact@edusharehub.com">Contact</a>
+    </div>
+
+    <p class="copyright">
+      © 2026 EduShareHub. All rights reserved.
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
